@@ -8,8 +8,8 @@ Following picture illustrates the compilation process:
 
 ## References
 
-[Interpreted Language - an overview](https://www.sciencedirect.com/topics/engineering/interpreted-language#:~:text=Java%20can%20be%20considered%20both,usually%20a%20software%2Dbased%20interpreter.)
+> [Interpreted Language - an overview](https://www.sciencedirect.com/topics/engineering/interpreted-language#:~:text=Java%20can%20be%20considered%20both,usually%20a%20software%2Dbased%20interpreter.)
 
-[Is Java Compiled or Interpreted Programming language?](https://javarevisited.blogspot.com/2014/06/is-java-interpreted-or-compiled-programming-language.html#axzz6jdf89SqB)
+> [Is Java Compiled or Interpreted Programming language?](https://javarevisited.blogspot.com/2014/06/is-java-interpreted-or-compiled-programming-language.html#axzz6jdf89SqB)
 
-[How Java Works](https://www.cs.cmu.edu/~jcarroll/15-100-s05/supps/basics/history.html)
+> [How Java Works](https://www.cs.cmu.edu/~jcarroll/15-100-s05/supps/basics/history.html)
