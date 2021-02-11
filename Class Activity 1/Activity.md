@@ -8,12 +8,12 @@ Alphabet = { "a", "b", "0", "1", ".", "\_", "@" }
 
 ## Rules
 
-* The email address cannot start with a digit, underscore or period. It should always start with a letter.
-* There can only be a single @ in the email address.
-* Consecutive underscores and periods are allowed.
+-   The email address cannot start with a digit, underscore or period. It should always start with a letter.
+-   There can only be a single @ in the email address.
+-   Consecutive underscores and periods are allowed.
 
 ## Regular Expression
 
-~~~
+```
 ( a + b )( a + b + 0 + 1 + . + _ )* @ ( a + b + 0 + 1 + . )*
-~~~
+```
