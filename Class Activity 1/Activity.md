@@ -17,3 +17,12 @@ Alphabet = { "a", "b", "0", "1", ".", "\_", "@" }
 ```
 ( a + b )( a + b + 0 + 1 + . + _ )* @ ( a + b + 0 + 1 + . )*
 ```
+
+
+## NFA from Regular Expression
+
+![](NFA.jpeg)
+
+## Transition Table
+
+![](transition-table.PNG)
