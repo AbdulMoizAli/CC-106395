@@ -1,4 +1,4 @@
-<img src="https://previews.123rf.com/images/bsd555/bsd5551910/bsd555191000627/131292491-compiler-concept-icon-software-development-machine-language-programming-data-filtering-computer-code.jpg" width="200" height="200" alt="Compiler Logo" align="right">
+<img src="https://images.assetsdelivery.com/compings_v2/bsd555/bsd5551910/bsd555191000535.jpg" width="200" height="200" alt="Compiler Logo" align="right">
 
 # Compiler Construction 106395 Spring 2021 Course Repository
 
