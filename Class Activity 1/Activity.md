@@ -29,3 +29,7 @@ Alphabet = { "a", "b", "0", "1", ".", "\_", "@" }
 ## DFA from NFA / Transition Table
 
 ![](DFA.jpeg)
+
+## Table-Driven Implementation of DFA
+
+![](code.png)
