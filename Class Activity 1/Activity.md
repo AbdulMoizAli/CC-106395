@@ -33,3 +33,7 @@ Alphabet = { "a", "b", "0", "1", ".", "\_", "@" }
 ## Table-Driven Implementation of DFA
 
 ![](code.png)
+
+## Program Demonstration
+
+![](program-demo.gif)
