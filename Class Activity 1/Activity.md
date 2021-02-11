@@ -18,7 +18,6 @@ Alphabet = { "a", "b", "0", "1", ".", "\_", "@" }
 ( a + b )( a + b + 0 + 1 + . + _ )* @ ( a + b + 0 + 1 + . )*
 ```
 
-
 ## NFA from Regular Expression
 
 ![](NFA.jpeg)
@@ -26,3 +25,7 @@ Alphabet = { "a", "b", "0", "1", ".", "\_", "@" }
 ## Transition Table
 
 ![](transition-table.PNG)
+
+## DFA from NFA / Transition Table
+
+![](DFA.jpeg)
