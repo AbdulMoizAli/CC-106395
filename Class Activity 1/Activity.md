@@ -1,4 +1,4 @@
-# Class Activity # 1
+# Compiler Construction 106395 Spring 2021: Class Activity# 1
 
 An activity focused on making a program to accept a language accepted by some RE.
 
