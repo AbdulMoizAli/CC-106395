@@ -64,7 +64,7 @@ while (count < desiredCount) {
 
 ```
 
-# Language Grammar
+# Lexical Specification and Language Grammar
 
 Grammar description using EBNF.
 
