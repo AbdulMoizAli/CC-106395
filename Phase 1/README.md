@@ -17,6 +17,13 @@ Python, JavaScript) is executed as if it was inside of C/Java main.
 
 Currently it does not support user-defined functions.
 
+# Data Types
+
+- int (signed 32-bit)
+- double (double-precision 64-bit IEEE 754 floating point)
+- bool
+- string
+
 # Example Constructs Of The Language
 
 ```c
