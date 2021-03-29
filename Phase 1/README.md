@@ -4,6 +4,19 @@
 
 **Mini-C**
 
+# Mini-C Language Specification
+
+Mini-C is a very simple C-like programming language designed for education purposes (for software that
+can be used by students to learn about program compilation).
+
+It has if statements, loops (while), variables, arithmetic (+, -, *, /, %), comparison (==, !=, <, >, <=, >=),
+logical (!, &&, ||) operators, string concatenation.
+
+It does not have “main” function for entry point like in C or Java, all code on “top-level” (similarly to
+Python, JavaScript) is executed as if it was inside of C/Java main.
+
+Currently it does not support user-defined functions.
+
 # Example Constructs Of The Language
 
 ```c
