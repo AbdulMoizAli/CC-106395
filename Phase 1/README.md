@@ -24,6 +24,44 @@ Currently it does not support user-defined functions.
 - bool
 - string
 
+# Built-in statements/expressions for input/output
+
+- Print a string (to stdout)
+
+```c
+
+void print(string s);
+void println(string s);
+
+```
+
+- Read a number (from stdin)
+
+```c
+
+int readInt();
+double readDouble();
+
+```
+
+- Read a string with all characters until a line separator (from stdin)
+
+```c
+
+string readLine();
+
+```
+
+- Convert a number or boolean to a string
+
+```c
+
+string toString(int input);
+string toString(double input);
+string toString(bool input);
+
+```
+
 # Example Constructs Of The Language
 
 ```c
