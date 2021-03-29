@@ -28,7 +28,7 @@ Currently it does not support user-defined functions.
 
 - Print a string (to stdout)
 
-```c
+```cs
 
 void print(string s);
 void println(string s);
@@ -37,7 +37,7 @@ void println(string s);
 
 - Read a number (from stdin)
 
-```c
+```cs
 
 int readInt();
 double readDouble();
@@ -46,7 +46,7 @@ double readDouble();
 
 - Read a string with all characters until a line separator (from stdin)
 
-```c
+```cs
 
 string readLine();
 
@@ -54,7 +54,7 @@ string readLine();
 
 - Convert a number or boolean to a string
 
-```c
+```cs
 
 string toString(int input);
 string toString(double input);
@@ -159,12 +159,12 @@ Grammar description using EBNF.
 
 - 'x' — terminal symbol.
 - x? – zero or one occurrences of x.
-- x\* – zero or more occurrences of x
+- x* – zero or more occurrences of x
 - x+ – one or more occurrences of x.
 - x | y – alternative (x or y).
 - () – group, for example (x | y) z (x y)?
 
-```c
+```cs
 
 program = statement*
 
