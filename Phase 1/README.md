@@ -185,7 +185,7 @@ block = '{' statement* '}'
 expression = literal
            | ID
            | ('!' | '-') expression
-           | expression ('\*' | '/' | '%') expression
+           | expression ('*' | '/' | '%') expression
            | expression ('+' | '-') expression
            | expression ('<' | '>' | '<=' | '>=') expression
            | expression ('==' | '!=') expression
@@ -221,12 +221,12 @@ literal = IntegerLiteral
 
 IntegerLiteral = DIGIT+
 FloatingPointLiteral = DIGIT+ '.' DIGIT+
-StringLiteral = '"' (CHAR | '\"')\* '"'
+StringLiteral = '"' (CHAR | '\"')* '"'
 BooleanLiteral = 'true' | 'false'
 
 SEMI = ';'
 
-ID = (LETTER | '_') (LETTER | DIGIT | '_')\*
+ID = (LETTER | '_') (LETTER | DIGIT | '_')*
 
 DIGIT = '0' | ... | '9'
 LETTER = 'a' | ... | 'z' | 'A' | ... | 'Z'
