@@ -62,6 +62,37 @@ string toString(bool input);
 
 ```
 
+# Scopes
+
+Nested scopes are supported for variables and work the same as in most of other languages like C, Java.
+Blocks (curly braces, { … }) can be nested and variables defined in a scope are available only until the end
+of the scope. Redeclaration of variables existing in parent (or current) scopes is not allowed
+
+### Example:
+
+```c
+
+int a = 42;
+
+if (a == 42) {
+  int b = a + 1;
+  print(toString(b)); // 43
+}
+
+{
+  int b = a + 2;
+  print(toString(b)); // 44
+}
+
+{
+  int a = 41; // error
+  print(toString(b + 1)); // error
+}
+
+int a = 40; // error
+
+```
+
 # Example Constructs Of The Language
 
 ```c
