@@ -1,5 +1,14 @@
 # Compiler Construction 106395 Spring 2021: Class Activity# 1
 
+## Project Members 👨 👩
+
+| ID             | Name            |
+|:--------------:|:---------------:|
+|  **63153**     |  **Abdul Moiz** |
+|  63130         |  Tahoor Ali     |
+
+## Description
+
 An activity focused on making a program to accept a language accepted by some RE.
 
 You are given the alphabet set as below. Design an RE for valid email addresses based on this alphabet set. Make an NFA for it, then a DFA and finally a TDI.
