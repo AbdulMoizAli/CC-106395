@@ -1,6 +1,13 @@
 %option noyywrap
 
 %{
+    #include <unistd.h>
+    #include <stdbool.h>
+
+    void write_token_to_file(int token_class);
+    bool validate_file_path(char *path);
+    void main(int argc, char **argv);
+
     #define KEYWORD 1
 
     #define IDENTIFIER 2
@@ -62,7 +69,54 @@ RESERVED_IDENTIFIER exit|print|println|toString|readInt|readDouble|readLine
 
 %%
 
-void main()
-{	
+void write_token_to_file(int token_class)
+{
+    char str[1];
+    sprintf(str, "%d", token_class);
+
+    fputs("<", yyout);
+    fputs(str, yyout);
+    fputs(", ", yyout);
+    fputs(yytext, yyout);
+    fputs(">\n", yyout);
+}
+
+bool validate_file_path(char *path)
+{
+    if (access(path, F_OK) != 0)
+        return false;
+
+    return true;
+}
+
+void main(int argc, char **argv)
+{
+    ++argv, --argc;
+
+    if (argc < 1)
+        yyin = stdin;
+    else if (argc > 1)
+    {
+        printf("takes only 1 argument :: path to an input text file");
+        return;
+    }
+    else
+    {
+        char *file_path = argv[0];
+
+        if (!validate_file_path(file_path))
+        {
+            printf("Cannot find path '%s' because it does not exist.", file_path);
+            return;
+        }
+
+        yyin = fopen(file_path, "r");
+    }
+
+    yyout = fopen("./TokenStream.txt", "w");
+
     yylex();
+
+    fclose(yyin);
+    fclose(yyout);
 }
