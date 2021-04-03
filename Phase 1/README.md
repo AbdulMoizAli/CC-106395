@@ -7,11 +7,11 @@
 |  **63153**     |  **Abdul Moiz** |
 |  63130         |  Tahoor Ali     |
 
-# Language Selected
+# Language Selected ✔
 
 **Mini-C**
 
-# Mini-C Language Specification
+# Mini-C Language Specification 📃
 
 Mini-C is a very simple C-like programming language designed for education purposes (for software that
 can be used by students to learn about program compilation).
@@ -24,14 +24,14 @@ Python, JavaScript) is executed as if it was inside of C/Java main.
 
 Currently it does not support user-defined functions.
 
-# Data Types
+# Data Types 🌀
 
 - int (signed 32-bit)
 - double (double-precision 64-bit IEEE 754 floating point)
 - bool
 - string
 
-# Built-in statements/expressions for input/output
+# Built-in statements/expressions for input/output 🔁
 
 - Print a string (to stdout)
 
@@ -69,13 +69,13 @@ string toString(bool input);
 
 ```
 
-# Scopes
+# Scopes 🌌
 
 Nested scopes are supported for variables and work the same as in most of other languages like C, Java.
 Blocks (curly braces, { … }) can be nested and variables defined in a scope are available only until the end
 of the scope. Redeclaration of variables existing in parent (or current) scopes is not allowed
 
-### Example:
+### Example: ⬇
 
 ```c
 
@@ -100,7 +100,7 @@ int a = 40; // error
 
 ```
 
-# Example Constructs Of The Language
+# Example Constructs Of The Language 🔰
 
 ```c
 
@@ -160,7 +160,7 @@ while (count < desiredCount) {
 
 ```
 
-# Lexical Specification and Language Grammar
+# Lexical Specification and Language Grammar ℹ
 
 Grammar description using EBNF.
 
