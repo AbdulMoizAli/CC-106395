@@ -13,6 +13,8 @@ A lexical analyzer for the `Mini-C` programming language using `Flex(Fast Lexica
 
 `scanner.l` file contains the token classes and lexeme patterns for `Mini-C`, download and compile the `scanner.l` file to create an executable, run the executable to scan input strings. There are two ways to provide input strings to the executable, either from the standard input in the command line or from a text file. The executable would generate a token stream in a text file.
 
+> Refer to [Mini-C Language Specification](https://github.com/AbdulMoizAli/CC-106395/blob/main/Phase%201/README.md) for lexical details.
+
 # Compile (flex) 📦
 
 compiling the `scanner.l` file would create a `lex.yy.c` file, you can provide `-o` flag to override the default output c file name.
