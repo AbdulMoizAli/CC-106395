@@ -44,9 +44,25 @@ RESERVED_IDENTIFIER exit|print|println|toString|readInt|readDouble|readLine
 
 "=="|"!="|"<"|">"|"<="|">=" write_token_to_file(COMPARISON_OPERATOR);
 
+"!"|"&&"|"||" write_token_to_file(LOGICAL_OPERATOR);
+
+"=" write_token_to_file(ASSIGNMENT_OPERATOR);
+
+"{" write_token_to_file(OPEN_BRACE);
+
+"}" write_token_to_file(CLOSE_BRACE);
+
+"(" write_token_to_file(OPEN_PARE);
+
+")" write_token_to_file(CLOSE_PARE);
+
+";" write_token_to_file(SEMI);
+
+.|\n
+
 %%
 
 void main()
 {	
-	yylex();
+    yylex();
 }
