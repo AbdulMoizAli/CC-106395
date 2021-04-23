@@ -303,3 +303,13 @@ $  ./a.out | ./<FILE NAME>.out
    or
 $  ./a.out <FILE PATH> | ./<FILE NAME>.out <FILE PATH>
 ```
+
+# Problems Faced 🚩
+
+## Interpreting the language grammar
+
+It took quite a while to get our heads around the grammar of Mini-C language but, as we progressed through the course material, things started to make sense.
+
+## Integrating the scanner with parser
+
+It was hard finding an example on integration of flex with yacc program then we found a simple and straight forward example on the course website.
