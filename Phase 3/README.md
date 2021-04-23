@@ -254,7 +254,7 @@ Whitespace characters (' ', '\t', '\r', '\n') are skipped outside of tokens.
 
 ## Tasks
 
-Creating a Lexical Analyzer was relatively easier than the Parser but, after reading a bunch of documentations and collaborative work we did manage to get it done correctly.
+Creating a Lexical Analyzer was relatively easier than the Parser but, after reading a bunch of documentations and collaborative work, we did manage to get it done correctly.
 
 ## Working
 
