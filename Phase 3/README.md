@@ -313,3 +313,17 @@ It took quite a while to get our heads around the grammar of Mini-C language but
 ## Integrating the scanner with parser
 
 It was hard finding an example on integration of flex with yacc program then we found a simple and straight forward example on the course website.
+
+# References 🖇
+
+> [Flex Manual](http://manpages.ubuntu.com/manpages/trusty/man1/flex.1.html)
+
+> [Yacc Manual](http://manpages.ubuntu.com/manpages/trusty/man1/yacc.1plan9.html)
+
+> [Using Flex with Yacc](https://www.oreilly.com/library/view/flex-bison/9780596805418/ch01.html)
+
+> [Yacc Rules Syntax](https://www.gnu.org/software/bison/manual/html_node/Rules-Syntax.html)
+
+> [Shift/Reduce Conflicts in Yacc](https://www.gnu.org/software/bison/manual/html_node/Shift_002fReduce.html)
+
+> [Techniques for resolving common grammar conflicts in parsers.](https://efxa.org/2014/05/17/techniques-for-resolving-common-grammar-conflicts-in-parsers/)
