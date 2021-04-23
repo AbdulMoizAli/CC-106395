@@ -258,7 +258,7 @@ Creating a Lexical Analyzer was relatively easier than the Parser but, after rea
 
 ## Working
 
-Download and compile the `scanner.l` and `parser.y` file to create an executable, run the executable to parse the source code. There are two ways to provide source code to the executable, either from the standard input in the command line or from a text file. The executable would parse the source program and let user know if there are any parsing error in the program.
+Download and compile the `scanner.l` and `parser.y` file to create an executable, run the executable to parse the source code. There are two ways to provide source code to the executable, either from the standard input in the command line or from a text file. The executable would parse the source program and let user know if there are any parsing errors in the program.
 
 ### Compile (flex & yacc)
 
