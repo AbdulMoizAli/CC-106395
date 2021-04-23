@@ -1,5 +1,10 @@
 %{
   #include <stdio.h>
+  #include <unistd.h>
+  #include <stdbool.h>
+
+  bool validate_file_path(char *path);
+  void main(int argc, char **argv);
 %}
 
 %start program
@@ -140,3 +145,50 @@ literal:
 ;
 
 %%
+
+#include "lex.yy.c"
+
+bool validate_file_path(char *path)
+{
+    if (access(path, F_OK) != 0)
+        return false;
+
+    return true;
+}
+
+void main(int argc, char **argv)
+{
+    ++argv, --argc;
+
+    if (argc < 1)
+        yyin = stdin;
+    else if (argc > 1)
+    {
+        printf("takes only 1 argument :: path to an input text file");
+        return;
+    }
+    else
+    {
+        char *file_path = argv[0];
+
+        if (!validate_file_path(file_path))
+        {
+            printf("Cannot find path '%s' because it does not exist.", file_path);
+            return;
+        }
+
+        yyin = fopen(file_path, "r");
+    }
+
+    if (!yyparse())
+      printf("\nParsing Completed,no errors!\n");
+    else
+      printf("\nParsing Failed!!!\n");
+
+    fclose(yyin);
+}
+
+yyerror(char *s)
+{
+	printf("line %d : %s %s\n", yylineno, s, yytext );
+}   
