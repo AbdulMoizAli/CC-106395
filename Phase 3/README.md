@@ -312,7 +312,7 @@ It took quite a while to get our heads around the grammar of Mini-C language but
 
 ## Integrating the scanner with parser
 
-It was hard finding an example on integration of flex with yacc program then we found a simple and straight forward example on the course website.
+It was hard finding an example on integration of flex with yacc program then we found a simple and straight forward example on the [course website](http://compilersatkiet.22web.org/).
 
 ## Eliminating grammar conflicts in parser
 
