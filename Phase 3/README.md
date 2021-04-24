@@ -327,3 +327,7 @@ It was hard finding an example on integration of flex with yacc program then we 
 > [Shift/Reduce Conflicts in Yacc](https://www.gnu.org/software/bison/manual/html_node/Shift_002fReduce.html)
 
 > [Techniques for resolving common grammar conflicts in parsers.](https://efxa.org/2014/05/17/techniques-for-resolving-common-grammar-conflicts-in-parsers/)
+
+# Demo 🎥
+
+https://user-images.githubusercontent.com/59338587/115956232-17f8a700-a515-11eb-87bd-59fc6ccbd556.mp4
