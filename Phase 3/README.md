@@ -314,6 +314,12 @@ It took quite a while to get our heads around the grammar of Mini-C language but
 
 It was hard finding an example on integration of flex with yacc program then we found a simple and straight forward example on the course website.
 
+## Eliminating grammar conflicts in parser
+
+We faced significant number of grammar conflicts in our initial implementation of parser because there are situations where the grammar is clear without fuzzy rules but Yacc cannot handle it because by default it generates LALR(1) parsers with limited look-ahead ability.
+
+We resolved some of the Shift/Reduce conflicts by specifying the associativity property of different operators in the Yacc program. Remaining conflicts were eliminated by using always opening and closing curly braces around statements and using different precedence rules to associate “else” with the nearest “if”.
+
 # References 🖇
 
 > [Flex Manual](http://manpages.ubuntu.com/manpages/trusty/man1/flex.1.html)
